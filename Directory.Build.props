@@ -1,0 +1,8 @@
+<!-- Paths are relative to actual project and they are not relative to Build.props location. -->
+<Project>
+    <ItemGroup>
+        <AdditionalFiles Include="../first.txt" />
+        <AdditionalFiles Include="../second.txt" />
+        <AdditionalFiles Include="../stylecop.json" />
+    </ItemGroup>
+</Project>

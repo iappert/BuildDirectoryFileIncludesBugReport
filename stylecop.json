@@ -1,0 +1,51 @@
+{
+    "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+    "settings": {
+      "documentationRules": {
+        "xmlHeader": false,
+        "documentExposedElements": false,
+        "documentInternalElements": false,
+        "documentPrivateElements": false,
+        "documentInterfaces": false,
+        "documentPrivateFields": false,
+        "documentationCulture": "en-US",
+        "fileNamingConvention": "stylecop"
+      },
+      "indentation": {
+        "indentationSize": 4,
+        "tabSize": 4,
+        "useTabs": false
+      },
+      "orderingRules": {
+        "usingDirectivesPlacement": "insideNamespace",
+        "blankLinesBetweenUsingGroups": "omit",
+        "systemUsingDirectivesFirst": true,
+        "elementOrder": [
+          "kind",
+          "constant",
+          "accessibility",
+          "static",
+          "readonly"
+        ]
+      },
+      "namingRules": {
+          "allowCommonHungarianPrefixes": false,
+          "allowedHungarianPrefixes": [
+              "db",
+              "is"
+          ]
+      },
+      "maintainabilityRules": {
+        "topLevelTypes":[
+            "class",
+            "interface",
+            "struct",
+            "enum"
+        ]
+      },
+      "layoutRules": {
+          "allowConsecutiveUsings": false,
+          "newlineAtEndOfFile": "omit"
+      }
+    }
+  }
